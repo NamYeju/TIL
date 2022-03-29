@@ -1,9 +1,8 @@
-package 테스트용.함수형인터페이스.자바제공;
+package 테스트용.함수형인터페이스.Function인터페이스;
 
 import java.util.function.Function;
 
 public class Foo implements Function<Integer, Integer> {
-
 
     @Override
     public Integer apply(Integer integer) {
